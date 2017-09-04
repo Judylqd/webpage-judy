@@ -1,0 +1,320 @@
+body{   /*界面分为三个部分：头部、身体、底部*/
+	margin:0;
+	padding:0;
+}
+#id{
+	width: 100%;
+	position: relative;
+}
+ .clear{
+	clear: both;
+}
+.head{     /*界面的头部： logo、导航、双手*/
+	width:100%
+}
+.head-logo{   /*logo*/
+	position:relative;
+	margin-left:8%;
+	margin-top:3%
+}
+.nav1{      /*导航*/
+	position: relative;
+	margin-left: 48%;
+	margin-top:-5%;
+	font-size: 0.8em; 
+}
+a{
+	text-decoration: none;
+	color: #808080;
+}
+
+ul.nav1{
+	list-style:none;
+}
+ul.nav1 li{
+	display:inline-block;
+	width:10%;
+	float:left;
+	-webkit-writing-mode:vertical-lr;
+	-moz-writing-mode:tb-lr;
+	
+} 
+.head-hand{   /*双手*/
+	position: relative;
+	width:100%;
+}
+
+.content{  /*界面的身体：冲泡、储存方法、购茶指南三大块*/
+	 
+}
+.content1{   /*冲泡部分*/
+	position:relative;
+	background-color:white;
+	width:64.3%;
+	margin-left:17.5%;
+}
+.box1{  /*第一排*/
+	width:100%;
+	position: relative;
+	left:0%;
+	margin-top:1%;
+	overflow: hidden;
+}
+.box1_1{
+	width:42.45%;
+	position:relative;
+	float:left;
+}
+.alert1{
+	position: absolute;
+	display: inline-block;
+	background-color:black;
+	opacity: 0.5;
+	top:75%;
+	left: 0%;
+	color: white;
+	width: 42%;
+	height: 30px;
+	text-align:right;
+}
+.alert2{
+	position: absolute;
+	display: inline-block;
+	background-color:black;
+	opacity: 0.5;
+	top:72%;
+	left: 75%;
+	color: white;
+	width: 25%;
+	height: 30px;
+	text-align:right;
+}
+.alert3{
+	position: absolute;
+	display: inline-block;
+	background-color:black;
+	opacity: 0.5;
+	top:75%;
+	left: 0%;
+	color: white;
+	width: 26%;
+	height: 30px;
+	text-align:right;
+}
+.alert4{
+	position: absolute;
+	display: inline-block;
+	background-color:black;
+	opacity: 0.5;
+	top:78%;
+	left:75%;
+	color: white;
+	width: 25%;
+	height: 30px;
+	text-align:right;
+}
+.box1_2{
+	width:31.88%;
+	float:left;
+	text-align:center;
+	margin-top:6%;
+	color: #808080;
+}
+.box1_3{
+	position:relative;
+	width:25.66%;
+	margin-right:0%;
+	float: left;
+}
+.box2{   /*第二排*/
+	position: relative;
+	width:100%;
+	left:0%;
+	margin-top:0%;
+	overflow: hidden;	 
+}
+.box2_1{
+	position: relative;
+	float: left;
+	width:26.13%;
+	clear: both;
+	text-align: center;
+	margin-top:6%;
+	color: #808080;
+
+}
+.box2_2{
+	position: relative;
+	float: left;
+	width:48.21%;
+	background-color:#eeeeec;
+}
+.box2_2_picture{
+	margin-top: 20%;
+	margin-left: 45%;
+	margin-bottom: 20%;
+}
+.box2_3{
+	position: relative;
+	float:left;
+	width:25.66%;
+	text-align: center;
+	margin-top:6%;
+	color: #808080;
+}
+.box3{    /*第三排*/
+	position: relative;
+	width:100%;
+	overflow: hidden;
+}
+.box3_1{
+	position: relative;
+	float:left;
+	width:26.13%;
+	margin-top:-13%;
+}
+.box3_2{
+	position:relative;
+	float:left;
+	width:48.21%;
+	text-align: center;
+	margin-top:5%;
+	color: #808080;
+}
+.box3_3{
+	position:relative;
+	float:left;
+	width:25.66%;
+	margin-top:-13%;
+}
+.content2{  /* 储存方法*/
+	position:relative;
+	width:64.3%;
+	margin-left:17.5%;
+	margin-top: 3%;
+	}
+ 
+ .way_know1 {
+ 	border:2px dashed;
+ 	width: 12%;
+ 	line-height:30px;
+ 	display: inline-block;
+	position:relative;
+	margin-left:80%;
+	text-align: center;
+	border-color:#808080;
+ 	}
+.line_way{
+	position:relative;
+	width: 100%;
+	clear: both;
+	margin-top: 4%;
+}
+.line_guide{
+	position:relative;
+	width: 100%;
+	margin-top: 5%;
+}
+.picture{
+	width:60.34%;
+	margin-top: 4%;
+	margin-left: 0%;
+	float:left;
+}
+.way_reserve{
+	width:35.5%;
+	margin-top:10%;
+	margin-left:3%;
+	float:left;
+	color: #808080;
+}
+.way_list{
+	position:relative;
+	width:100%;
+	margin-top:4%;
+	float:left; 
+}
+.way_table td{
+	border-bottom:2px dashed;
+	 height: 40px; 
+	 border-color:#808080;
+	 font-size: 16px;
+	 color: #808080;
+}
+.way_know2{
+	position:relative;
+	margin-left: 80%;
+	margin-top: 4%;
+	border:2px dashed;
+ 	width: 12%;
+ 	line-height:30px;
+ 	display: inline-block;
+	text-align: center;
+	border-color:#808080;
+}
+  /*购茶指南*/
+.vigilant{
+	position:relative;
+	float:left;
+	width: 23%;
+	margin-top:5%;
+	color: #808080;
+}
+.howChoose{
+	position:relative;
+	float:left;
+	width: 28%;
+	margin-left:8%;
+	margin-top:5%;
+	color: #808080;
+}
+.teach{
+	position:relative;
+	float:left;
+	width: 33%;
+	margin-left:8%;
+	margin-top:5%;
+	color: #808080;
+}
+.way_know3{
+	position:relative;
+	margin-left:80%;
+	top:25px;
+	clear:both;
+	border:2px dashed;
+ 	width: 12%;
+ 	line-height:30px;
+ 	display: inline-block;
+	text-align: center;
+	border-color:#808080;
+}
+.footer{ /*界面的底部*/
+	width: 100%;
+	background-color:#616161;
+	height: 155px;
+	margin-top: 7%;
+}
+.code{
+	position:relative;
+    margin-left:25%;
+    top:28%;
+    margin-top:4%;
+}
+.footer_line{
+	position:relative;
+    margin-left:60%;
+    top:-18%; 
+    width: 2%;
+}
+.search{
+	position: relative;
+	border:2px solid;
+	border-color:#808080;
+	width: 12%;
+	display: inline-block;
+	margin-left:63%;
+	top:-70px;
+}
+.search_pic{
+	text-align: right;
+}
